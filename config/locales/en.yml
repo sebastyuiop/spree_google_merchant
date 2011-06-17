@@ -1,0 +1,8 @@
+---
+en:
+  edit_google_merchant_settings: "Edit Google Merchant settings"
+  google_merchant_title: "Google Merchant title"
+  google_merchant_description: "Google Merchant description"
+  production_domain: "Production domain"
+  google_merchant: "Google Merchant"
+  google_merchants_description: "Provides a live feed of active products for Google Merchant" #Not to be confused with the above
