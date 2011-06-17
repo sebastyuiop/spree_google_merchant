@@ -9,6 +9,8 @@ To access the feed visit:
 
 Installation
 ------------
+
+To start with you'll need a Google Merchant account. Then:
   
     gem "spree_google_merchant", :git => 'git://github.com/sebastyuiop/spree_google_merchant.git'
     
