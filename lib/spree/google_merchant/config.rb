@@ -2,7 +2,6 @@ module Spree
   module GoogleMerchant
     class Config
       include Singleton
-      include PreferenceAccess
     
       class << self
         def instance
