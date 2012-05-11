@@ -1,4 +1,4 @@
-class Admin::GoogleMerchantsController < Spree::Admin::BaseController
+class Spree::Admin::GoogleMerchantsController < Spree::Admin::BaseController
 
   def update
     Spree::GoogleMerchant::Config.set(params[:preferences])
