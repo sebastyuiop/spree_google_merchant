@@ -12,5 +12,11 @@ module SpreeGoogleMerchant
     end
 
     config.to_prepare &method(:activate).to_proc
+
+    # instantiate the configuration object
+    initializer "spree.google_merchant.preferences", :after => "spree.environment" do |app|
+      Spree::GoogleMerchant::Config = Spree::GoogleMerchantConfiguration.new
+    end
+
   end
 end

@@ -6,7 +6,7 @@ module Spree
       class << self
         def instance
           return nil unless ActiveRecord::Base.connection.tables.include?('spree_configurations')
-          GoogleMerchantConfiguration.find_or_create_by_name("Google merchant configuration")
+          Spree::GoogleMerchantConfiguration.find_or_create_by_name("Google merchant configuration")
         end
       end
     end
