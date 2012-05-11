@@ -1,11 +1,13 @@
 Rails.application.routes.draw do
-  resources :products do 
-    collection do 
-      get :google_merchant
+  namespace :spree do
+    resources :products do 
+      collection do 
+        get :google_merchant
+      end
     end
-  end
-  
-  namespace :admin do
-    resource :google_merchants
+
+    namespace :admin do
+      resource :google_merchants
+    end
   end
 end
