@@ -1,5 +1,4 @@
 require 'spree_core'
-require 'spree_google_merchant_hooks'
 
 module SpreeGoogleMerchant
   class Engine < Rails::Engine
